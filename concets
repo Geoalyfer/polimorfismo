@@ -1,0 +1,13 @@
+# Polimorfismo é a característica de uma funçao ou determinado método se comportar confomre o tipo de dado em operação.
+## Verificando o porlimorfismo do atributo acelerar
+
+from classes import Motocicleta, Carro, Caminhao
+
+moto = Motocicleta('vermelha', 2, 'esportiva')
+carro = Carro('preta', 4, 'Chevrolet')
+caminhao = Caminhao('azul', 12, 'Scania')
+
+def acelerar(objeto):
+    print(objeto.acelerar())
+
+acelerar(caminhao)
